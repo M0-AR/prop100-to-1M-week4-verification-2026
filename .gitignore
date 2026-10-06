@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+# Regenerable vendor bars (1.5M) — reproducible via experiments/01; manifest stays tracked
+data/raw/*.csv
+downloads/
+*.log
+# NOTE: results/*.json|csv|png, docs/demo.gif, docs/screenshots/* are TRACKED
+# (small, needed for README images + Pages). Do not ignore them.

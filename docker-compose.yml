@@ -1,0 +1,26 @@
+services:
+  research:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+    environment:
+      - PYTHONPATH=/app
+      - TZ=UTC
+    command: >-
+      bash -c "python experiments/01_fetch_live_data.py &&
+               python experiments/02_run_backtest.py &&
+               python experiments/03_monte_carlo.py &&
+               python experiments/04_hidden_patterns.py &&
+               python experiments/05_prop_compliance.py &&
+               echo ALL_EXPERIMENTS_DONE"
+  # Optional: reproducible notebook/lab view (no extra deps)
+  docs:
+    image: python:3.11-slim
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-m", "http.server", "8000"]
+    ports:
+      - "8000:8000"
+    profiles: ["docs"]

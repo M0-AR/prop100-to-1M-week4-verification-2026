@@ -1,0 +1,123 @@
+{
+  "per_symbol": {
+    "USDJPY": {
+      "desc": "H1 USDJPY bearish engulf/H&S at AOI, close<EMA20",
+      "signals": 0,
+      "n": 0,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_R": 0.0,
+      "total_R": 0.0,
+      "avg_R": 0.0,
+      "max_loss_streak": 0,
+      "pnl": 0.0
+    },
+    "CADJPY": {
+      "desc": "H2 CADJPY cousin short",
+      "signals": 12,
+      "n": 10,
+      "win_rate": 0.3,
+      "profit_factor": 0.5674779150650079,
+      "expectancy_R": -0.166135527065335,
+      "total_R": -1.6613552706533499,
+      "avg_R": -0.166135527065335,
+      "max_loss_streak": 3,
+      "pnl": -344.771372940097
+    },
+    "AUDCHF": {
+      "desc": "H3 AUDCHF CTT H&S short",
+      "signals": 2,
+      "n": 2,
+      "win_rate": 0.5,
+      "profit_factor": 1.8432858869303095,
+      "expectancy_R": 0.1911276317860466,
+      "total_R": 0.3822552635720932,
+      "avg_R": 0.1911276317860466,
+      "max_loss_streak": 1,
+      "pnl": 38.90247895570332
+    },
+    "NZDCAD": {
+      "desc": "H4 NZDCAD break-retest long",
+      "signals": 0,
+      "n": 0,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_R": 0.0,
+      "total_R": 0.0,
+      "avg_R": 0.0,
+      "max_loss_streak": 0,
+      "pnl": 0.0
+    },
+    "GBPNZD": {
+      "desc": "H5 GBPNZD continuation short",
+      "signals": 27,
+      "n": 20,
+      "win_rate": 0.45,
+      "profit_factor": 0.4793589162443515,
+      "expectancy_R": -0.1362267074307638,
+      "total_R": -2.724534148615276,
+      "avg_R": -0.1362267074307638,
+      "max_loss_streak": 5,
+      "pnl": -584.660260085359
+    },
+    "EURGBP": {
+      "desc": "H6 EURGBP continuation long",
+      "signals": 0,
+      "n": 0,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_R": 0.0,
+      "total_R": 0.0,
+      "avg_R": 0.0,
+      "max_loss_streak": 0,
+      "pnl": 0.0
+    },
+    "AUDJPY": {
+      "desc": "H7 AUDJPY momentum retest long",
+      "signals": 0,
+      "n": 0,
+      "win_rate": 0.0,
+      "profit_factor": 0.0,
+      "expectancy_R": 0.0,
+      "total_R": 0.0,
+      "avg_R": 0.0,
+      "max_loss_streak": 0,
+      "pnl": 0.0
+    },
+    "XAUUSD": {
+      "desc": "H8 GOLD rejection short",
+      "signals": 9,
+      "n": 8,
+      "win_rate": 0.375,
+      "profit_factor": 0.3292327933081302,
+      "expectancy_R": -0.25070568270569127,
+      "total_R": -2.00564546164553,
+      "avg_R": -0.25070568270569127,
+      "max_loss_streak": 3,
+      "pnl": -371.6363416632401
+    }
+  },
+  "pooled": {
+    "n": 40,
+    "win_rate": 0.4,
+    "profit_factor": 0.4991922356839105,
+    "expectancy_R": -0.15023199043355157,
+    "total_R": -6.009279617342062,
+    "avg_R": -0.15023199043355157,
+    "max_loss_streak": 7,
+    "pnl": -1262.1654957329927
+  },
+  "sharpe_proxy": -4.637234878210872,
+  "payout": {
+    "gross": -1262.1654957329927,
+    "capped": -1442.318410407916,
+    "payout": 0.0,
+    "cap_hit": false
+  },
+  "daily": {
+    "breached": false,
+    "worst_day": -159.86700949691044,
+    "daily_limit": -500.0
+  },
+  "n_trades": 40
+}

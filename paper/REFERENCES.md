@@ -1,0 +1,17 @@
+# REFERENCES (per-claim mapping, voting across channels)
+- websearch/Exa deep: FX Replay 2026 backtesting guide — https://fxreplay.com/learn/the-complete-guide-to-backtesting-for-prop-firm-challenges (100-trade bar, execution deficit, consistency, spread)
+- websearch/Exa deep: PropFirmBridge 2026 checklist — https://propfirmbridge.com/education/prop-firm-challenge-preparation-checklist-for-forex-traders-2026-guide (position sizing daily/5, server-specific demo, payout verification)
+- websearch/Exa: Propfirmscan tick/virtual-broker — https://propfirmscan.com/guides/how-to-use-prop-firm-historical-data-a-step-by-step-backtesting-guide (tick precision, trailing DD, Monte-Carlo, consistency filter)
+- websearch/Exa: ForexPropFirms backtesting — https://www.forexpropfirms.com/blogs/backtesting-strategies-for-prop-firm-challenges (expectancy formula, MAE)
+- websearch/Exa: JPTC algo backtesting — https://www.jptradingcapital.com/blog/en/algo-trading-backtesting-process-step-by-step (Sharpe>0.8, PF>1.7, walk-forward)
+- duckduckgo_search: Break-retest + H&S stats — FXGlory break-retest; Horizon break-retest guide; Bulkowski via tradealgo; alexfirdaus H&S 51% hit / 19% breakeven (2,800 trades); tradernewbie H&S neckline rule
+- webfetch lite.duckduckgo fallback: profit-factor/consistency 2026 guides (forexfluency, contentwave, trademetricspro, forextradelab) — PF + cost math + 30-trade minimum
+- agent-reach_search web: VectorBT PRO Dukascopy data; saleem-latif/duka-data (20y tick→M5/H1/H4/D1 + spread); forex-basics Python stack (pandas/backtrader/vectorbt, commission/slippage honesty)
+- gitmcp: saleem-latif/duka-data docs (download.py, ledger, check_integrity, DIV_1000 CFD note, MIT)
+- openresearch openalex: Alanazi 2020 engulfing (24 pairs, 112,792 daily + 148,992 H4, 3M quotes); Wangchailert 2025 Doji unreliability (8 pairs incl XAUUSD, 13y); Song NZD correlation cSVR study
+- paper-search unified (arxiv/semantic/openalex/crossref): Smith-Faugere-Wang SSRN 2202060 H&S institutional; Watson 2009 Durham thesis (H&S decay, P&F intraday); Sumadi et al 2026 ITCM psychology-mediation (R2 0.791)
+- paper-search arxiv: Maier-Paape & Platen 1412.5558 + Low et al 1509.08248 (candle-ambiguity correctness proof — our stop-before-target rule); Chen et al GAF-CNN 90.7% pattern classification (why automation ≠ edge)
+- wiki_search: Algorithmic trading (baseline def)
+- gsd_websearch + superpowers semantic: verification-before-completion / systematic-debugging guardrails (method discipline)
+- searxng web_search: unreachable (SEARXNG_URL fetch failed, documented) → suggestions fallback used; openresearch news: GDELT rate-limited (documented, retried once)
+- Live data (this host, 2026-10-06): Yahoo v8 HTTP 200 all 8 symbols; Frankfurter ECB HTTP 200; Stooq HTTP 200 HTML botwall (quoted in manifest) — primary/fallback decision logged.

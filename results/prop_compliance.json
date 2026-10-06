@@ -1,0 +1,17 @@
+{
+  "payout": {
+    "gross": -1262.165495732993,
+    "capped": -1442.318410407916,
+    "payout": 0.0,
+    "cap_hit": false
+  },
+  "daily": {
+    "breached": false,
+    "worst_day": -159.86700949691044,
+    "daily_limit": -500.0
+  },
+  "maxdd": {
+    "breached": true,
+    "maxdd": -0.14506595268498357
+  }
+}
